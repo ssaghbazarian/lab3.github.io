@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Stepanos Saghbazarian
+	Lab 3: Embedding iFrames
+	IST 541 - Fall 2022 
+*/
+
+body {
+	text-align: center;
+	background-color: #4C853B;
+	color: #fff;
+}
+
+a{
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color: #936C6D;
+	color:  #fff; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: #0F4600; 
+	color: #fff; 
+
+}

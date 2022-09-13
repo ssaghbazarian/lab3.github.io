@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- Stepanos Steve Saghbazarian
+	IST 541 Lab 3: Embedding
+	Fall 2022 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lab 3: Embedding</title>
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<h1>Adding External Content using iFrames</h1>
+	</header>
+	
+	<nav>
+		<a href="index.html">  Go to Page 1 </a>
+		<a href="page2.html"> Go to Page 2 </a>
+		<a href="page3.html"> Go to Page 3 </a>
+		<a href="page4.html"> Go to Page 4 </a>
+	</nav>
+	
+	<main>
+		<br><br>
+	<h2> Weather in Manteca, CA</h2>
+	<!-- iFrame code will be added below -->
+	
+	<a class="weatherwidget-io" href="https://forecast7.com/en/37d84n121d21/95336/" data-label_1="MANTECA" data-label_2="WEATHER" data-theme="original" >MANTECA WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+	</main>
+	
+	<footer>
+		<p>Stepanos Steve Saghbazarian</p>
+		<p>IST 541 Lab 3 Fall 2022</p>
+	
+	</footer>
+	
+</body>
+</html>
